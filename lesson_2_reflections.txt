@@ -1,0 +1,7 @@
+-What happens when you initialize a repository? Why do you need to do it?
+
+A new hidden directory name ".git" is created, where information about the 
+history of my files will be stored from the moment I choose what files to 
+commit. I need to do it or else I will not be able to save commits, and then
+I will not take advantage of the benefits of git.
+

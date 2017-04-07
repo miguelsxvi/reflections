@@ -31,3 +31,11 @@ the version in the staging area, pass the first to the staging area and compare 
 as previously said. Obviously, there is no need to be so meticulous.
 --------------------------------------------------------------
 
+-What are some situations when branches would be helpful in keeping your history 
+organized? How would branches help?
+
+When trying out an experimental feature which one is not sure whether they will implement
+in the final version, but one still wants to have a working version to show or polish. This
+is more or less the same answer from the video, there is not too many different answers in
+my opinion. It all comes down to things you don't want to have in the oficial version.
+-------------------------------------------------------------

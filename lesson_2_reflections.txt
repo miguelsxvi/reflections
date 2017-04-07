@@ -4,4 +4,30 @@ A new hidden directory name ".git" is created, where information about the
 history of my files will be stored from the moment I choose what files to 
 commit. I need to do it or else I will not be able to save commits, and then
 I will not take advantage of the benefits of git.
+-------------------------------------------------
+
+-How is the staging area different from the working directory and the repository? 
+What value do you think it offers?
+
+The stagin area seems to be the like a storage room before the goods are shipped 
+so when the truck comes, it just takes everything there is in the room. It is the 
+company's duty to put the right items there beforehand. The working directory is
+where everything is stored, say like the whole building, and the (git) repository 
+would be a paper where the manager keeps track of all shipments so far. Since the
+repository also keeps some other stuff (I assume) so it can recover previous 
+versions, maybe the concept of document is a little bit to shallow, but let's leave
+it like that for now, maybe later on as I learn more about its nature I will change it.
+--------------------------------------------------------------
+
+-How can you use the staging area to make sure you have one commit per logical change?
+
+When one is about to make a commit to save the current status of the file after supposedly
+have done a "logical change", to be sure that the change is significant enough to be
+commited the good action is run "git diff --staged" which compares the file in the staging 
+area and the latest commit. If one chooses to continue working on the file because
+the modifications done were not that relevant, later on (after saving the file) they can 
+compare via "git diff" (without arguments) the saved version in the working directory and 
+the version in the staging area, pass the first to the staging area and compare again 
+as previously said. Obviously, there is no need to be so meticulous.
+--------------------------------------------------------------
 

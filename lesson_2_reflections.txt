@@ -59,3 +59,13 @@ meaning that the changes done since the branches diverged will be combined in ac
 several rules. The new commit will be part of the branch currently checked out, and through
 that commit we gain access to all the previous commits in both branches. The diagram shows
 that the commit created has as parents the latest commit in each branch.
+-----------------------------------------------------------
+
+-What are the pros and cons of Git’s automatic merging vs. always doing merges 
+manually?
+
+Automatic merging saves a lot of time, I mean, duh. It would be a big pain in the ass
+having to always go through the semi-merged file one wants to commit, like in those 
+ocassions when there is a conflict, deleting the parts that should not be in the new
+file. When it is so obvious what things should be added, such as a new separate function
+that has been newly written. 

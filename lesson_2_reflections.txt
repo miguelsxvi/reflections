@@ -39,3 +39,23 @@ in the final version, but one still wants to have a working version to show or p
 is more or less the same answer from the video, there is not too many different answers in
 my opinion. It all comes down to things you don't want to have in the oficial version.
 -------------------------------------------------------------
+
+-How do the diagrams help you visualize the branch structure?
+
+The human mid is very good at visual memory... nah, let's just say that making diagrams
+makes everything more tidy, and there is a visual representation of the whole history which
+helps tracking down commits, see which ones are unreachable, or where branches split
+and merge; all of that in an explicit form and showing everything at the same time, rather
+than a list of code-like lines where everything is cluttered and messy, an where one cannot
+actually see the whole picture at a time, because we can only git-log one branch (isn't that
+right?).
+-----------------------------------------------------------
+
+-What is the result of merging two branches together? Why do we represent it 
+in the diagram the way we do?
+
+The result of merging two branches is the combination of the latest commit for each branch,
+meaning that the changes done since the branches diverged will be combined in accordance to
+several rules. The new commit will be part of the branch currently checked out, and through
+that commit we gain access to all the previous commits in both branches. The diagram shows
+that the commit created has as parents the latest commit in each branch.

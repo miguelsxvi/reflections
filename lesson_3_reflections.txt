@@ -1,1 +1,17 @@
-When would you want to use a remote repository rather than keeping all your work local?
+-When would you want to use a remote repository rather than keeping all your work local?
+
+What comes to my mind is a collaboration project, or an opensource project. Nevertheless
+I have also seen it as a form of online learning resource website, where students can upload
+their assignments and pull the necessary files for the activities from the server.
+
+-Why might you want to always pull changes manually rather than having Git automatically 
+stay up-to-date with your remote repository?
+
+According to the video, because it would be likely that those actomatic updates of the GitHub
+repository would include commits of features which are not fully polished. Nonetheless, in the
+case of a collaboration project, it would not be too much of a deal, since most probably a 
+team could be working on a feature at a distance. Also, as long as the master or oficial branch
+is well defined and all the people who have access to the repository know that there might be
+other branches where the commits do not coincide with fully functional changes to the code, there
+should be no problem with automatic updates. But then again, the obligation to manually upload
+the changes forces the programmer/s to keep everything organised.
